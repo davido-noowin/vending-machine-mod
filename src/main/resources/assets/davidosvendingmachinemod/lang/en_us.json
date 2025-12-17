@@ -1,5 +1,4 @@
 {
-  "itemGroup.davidosvendingmachinemod": "Example Mod Tab",
-  "block.davidosvendingmachinemod.example_block": "Example Block",
-  "item.davidosvendingmachinemod.example_item": "Example Item"
+  "item.davidosvendingmachinemod.emptydrink": "Empty Canned Drink",
+  "item.davidosvendingmachinemod.senzee" : "Senzee®"
 }
