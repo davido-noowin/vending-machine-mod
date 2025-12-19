@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "" : {
+      "model": "davidosvendingmachinemod:block/vending_machine_casing"
+    }
+  }
+}

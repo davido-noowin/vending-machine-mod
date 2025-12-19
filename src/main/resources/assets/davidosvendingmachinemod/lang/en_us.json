@@ -1,4 +1,8 @@
 {
   "item.davidosvendingmachinemod.emptydrink": "Empty Canned Drink",
-  "item.davidosvendingmachinemod.senzee" : "Senzee®"
+  "item.davidosvendingmachinemod.senzee" : "Senzee®",
+
+  "block.davidosvendingmachinemod.vending_machine_casing" : "Vending Machine Casing Block",
+
+  "creativetab.davidosvendingmachinemod.vending_machine_items" : "Davido's Vending Machine Mod"
 }

@@ -1,5 +1,6 @@
 package com.davido.vendingmachinemod;
 
+import com.davido.vendingmachinemod.block.ModBlocks;
 import com.davido.vendingmachinemod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -55,7 +56,10 @@ public class DavidosVendingMachineMod {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTab.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -73,6 +77,10 @@ public class DavidosVendingMachineMod {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.CANNED_DRINK);
             event.accept(ModItems.SENZEE);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlocks.VENDING_MACHINE_CASING);
         }
     }
 
