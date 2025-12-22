@@ -1,0 +1,26 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern": [
+    "---",
+    "G*G",
+    "---"
+  ],
+  "key" : {
+    "-" : {
+      "item" : "minecraft:iron_block"
+    },
+    "G" : [
+      {
+        "item" : "minecraft:glass"
+      }
+    ],
+    "*" : {
+      "item" : "davidosvendingmachinemod:emptydrink"
+    }
+  },
+  "result" : {
+    "count" : 6,
+    "item" : "davidosvendingmachinemod:vending_machine_casing"
+  }
+}
