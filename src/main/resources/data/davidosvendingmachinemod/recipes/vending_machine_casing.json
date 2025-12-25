@@ -13,6 +13,9 @@
     "G" : [
       {
         "item" : "minecraft:glass"
+      },
+      {
+        "tag" : "minecraft:glass_blocks"
       }
     ],
     "*" : {
